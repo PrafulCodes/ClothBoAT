@@ -208,11 +208,14 @@ button:hover {
     color: black;
 }
 .new-arrivals h1 {
-    margin-bottom: 20px;
+    padding: 10px;
     text-align: center;
-    font-weight: bold;
-    font-size: 35px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 50px;
 }
+
 .products {
     display: flex;
     flex-wrap: wrap;
