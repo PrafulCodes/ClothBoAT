@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - Clothing Brand</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2><span style="color: red;">Cloth</span>BoAt</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Home</a></li>
+                <li class="dropdown">
+                    <a href="NewArrivals.html">New Arrivals</a>
+                </li>
+                <li class="dropdown">
+                    <a href="Topwear.html">Top wear</a>
+                    <ul class="dropdown-content">
+                        <li><a href="NewArrivals.html">New Arrivals</a></li>
+                        <li><a href="Dresses.html">Dresses</a></li>
+                        <li><a href="Best Sellers.html">Best Sellers</a></li>
+                        <li><a href="Casual Wear.html">Casual Wear</a></li>
+                        <li><a href="Maternity Wear.html">Maternity Wear</a></li>
+                        <li><a href="Festive Wear.html">Festive Wear</a></li>
+                        <li><a href="Under 699.html">Under 699</a></li>
+                        <li><a href="All Collection.html">All Collection</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="BottomWear.html">Bottom Wear</a>
+                    <ul class="dropdown-content">
+                        <li><a href="Shimmer.html">Shimmer Leggins</a></li>
+                        <li><a href="Straight.html">Straight Pants</a></li>
+                        <li><a href="AnkelLeggings.html">Ankle Leggins</a></li>
+                        <li><a href="Churidar.html">Churidar Leggins</a></li>
+                        <li><a href="Harem.html">Harem</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="T-shirt.html">Long Wear</a>
+                    <ul class="dropdown-content">
+                        <li><a href="T-shirt.html">T-shirt</a></li>
+                        <li><a href="Camisole.html">Camisole</a></li>
+                        <li><a href="Pantties.html">Panties</a></li>
+                    </ul>
+                </li>
+                <li><a href="TrackOrder.html" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Track Order</a></li>
+                <li><a href="#" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Store Locator</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icons">
+            <a href="#" id="finder-icon"><img src="finder.png" alt="Finder"></a>
+            <a href="login.html"><img src="user.png" alt="User"></a>
+            <a href="#"><img src="shopping-cart.png" alt="Cart"></a>
+        </div>
+    </header>
+    <div class="search-bar-container" id="search-bar-container">
+        <div class="search-bar" id="search-bar">
+            <input type="text" id="search-input" placeholder="Search..." onkeyup="searchProducts()">
+            <button id="close-btn" onclick="closeSearch()">Close</button>
+        </div>
+        <div id="search-results"></div>
+    </div><br><br>
+
+    <h1>Create Account</h1>
+    <form class="create-account-form">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit" class="create-account-button">CREATE</button>
+    </form>
+    <div class="social-login">
+        <button class="facebook-login">Login with Facebook</button>
+        <button class="google-login">Login with Google</button>
+    </div>
+    <a href="index.html" class="return-store">Return to Store</a>
+    <script src="Search.js"></script>
+</body>
+</html>
