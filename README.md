@@ -45,6 +45,6 @@ If you like my project, I'm always open to contributing to new projects and free
 ## Contact
 
 You can connect with me on:
-- *Instagram -[@praful_mohite](https://www.instagram.com/praful_mohite/?igsh=ZjVmMjhqMzl5ZXpu)*
+- *Instagram -[@prafumohite.in](https://www.instagram.com/praful_mohite/?igsh=ZjVmMjhqMzl5ZXpu)*
 - *LinkedIn -[Praful Mohite](https://www.linkedin.com/in/praful-mohite)*
 ---
